@@ -51,3 +51,15 @@ function handleText(textNode)
 	
 	textNode.nodeValue = v;
 }
+
+// mutation observer
+
+var observer = new WebKitMutationObserver(function (mutations) {
+    for (i in mutations) {
+        for (j = 0, l = mutations[i].addedNodes.length; j < l; j++) {
+            walk(mutations[i].addedNodes[j]);
+        }
+    }
+});
+
+observer.observe(document.body, {childList : true, subtree : true});           
