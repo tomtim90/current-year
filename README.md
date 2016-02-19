@@ -1,9 +1,9 @@
-cloud-to-butt
+current-year-to-2016
 =============
 
 ![](logo.png)
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt'
+Chrome extension that replaces occurrences of 'the current year' with '2016'
 
 [Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
 
